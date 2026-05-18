@@ -1,0 +1,19 @@
+PRODUCT = {AXE, SWORD, PIKE, SPEAR, CLUB};
+profit =  [11, 18, 15, 17, 11];
+RESOURCE = {IRON, WOOD, SMITH, CARPENTER};
+capacity = [50000, 75000, 40000, 30000];
+%2D array, las | separan filas, tmabien se puede definir:
+/*
+consumption = array2d(0..3., 0..3., 
+              [ 1.5, 1.0, 1.0, 1.0,
+                2.0, 0.0, 2.0, 0.0,
+                1.5, 0.5, 1.0, 1.0, 
+                0.5, 1.0, 0.9, 1.5,
+                0.1, 2.5, 0.1, 2.5]);
+hay arraynd hasta para n<= 6
+*/
+consumption = [| 15, 10, 10, 10 
+               | 20, 0, 20, 0
+               | 15, 5, 10, 10 
+               | 5, 10, 9, 15
+               | 1, 25, 1, 25 |];
