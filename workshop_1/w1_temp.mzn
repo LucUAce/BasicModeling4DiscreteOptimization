@@ -1,0 +1,3 @@
+/*
+calclula que hay que hacer cada momento para mantener la temp adecuada
+*/
